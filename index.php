@@ -61,5 +61,5 @@ $users = new userCollection([
 								,new user('Grand son',   	 3)
 					]);
 
-$users->sortBy('age'); // or sortBy name
+$users->sortBy('name'); // or sortBy age
 print_r($users->users());
